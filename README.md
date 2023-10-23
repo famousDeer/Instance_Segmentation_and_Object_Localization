@@ -1,7 +1,7 @@
 # Master Project
 
 ## :round_pushpin: General info
-Hello, this is my master degree repository and contain main program and master work in pdf (written in polish). 
+Hello, this is my master degree repository and contain main program. 
 
 ## Instuction for user
 ### System requierment
