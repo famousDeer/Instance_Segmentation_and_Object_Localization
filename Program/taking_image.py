@@ -40,8 +40,8 @@ while True:
 
         if cv2.waitKey(0) & 0xFF == ord('s'):   # Push "s" to save the images
             print(f"Images {id_image+1} saved for right and left cameras")
-            cv2.imwrite(f"images/imageschessboard-R{id_image}.png",frameR) # Save the image in the file where this Programm is located
-            cv2.imwrite(f"images/imageschessboard-L{id_image}.png",frameL) # Save the image in the file where this Programm is located
+            cv2.imwrite(f"images/imageschessboard-R{id_image}.png",frameR) # Save the image in images folder
+            cv2.imwrite(f"images/imageschessboard-L{id_image}.png",frameL) # Save the image in images folder
             id_image+=1
         else:
             print('Images not saved')
