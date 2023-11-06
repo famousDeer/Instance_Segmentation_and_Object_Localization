@@ -26,3 +26,8 @@ Use the board saved as 'Plansza.png' to take the images for calibration. The tak
 ### Running the main script
 
 Once all the previous steps have been completed, run the main.py script. First check that the image displayed is from the correct camera. If the cameras have been correctly assigned, you can continue with the script. The result should be two windows displaying the image from both cameras, displaying a frame around the detected object together with the segmentation mask and the distance from the cameras. To terminate the programme, press the q button.
+
+### Final result
+<p align="center">
+<img src="images/final.gif", alt="animated" />
+</p>
